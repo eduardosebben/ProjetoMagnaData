@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|c:\\users\\eduardo sebben\\desktop\\projeto magnadata\\controlelistatarefas\\controlelistatarefas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|solutionrelative:controlelistatarefas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|c:\\users\\eduardo sebben\\desktop\\projeto magnadata\\controlelistatarefas\\controlelistatarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|solutionrelative:controlelistatarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|c:\\users\\eduardo sebben\\desktop\\projeto magnadata\\controlelistatarefas\\controlelistatarefas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|solutionrelative:controlelistatarefas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|c:\\users\\eduardo sebben\\desktop\\projeto magnadata\\controlelistatarefas\\controlelistatarefas\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|solutionrelative:controlelistatarefas\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|c:\\users\\eduardo sebben\\desktop\\projeto magnadata\\controlelistatarefas\\controlelistatarefas\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|solutionrelative:controlelistatarefas\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|c:\\users\\eduardo sebben\\desktop\\projeto magnadata\\controlelistatarefas\\controlelistatarefas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489B17C0-75B7-4BEE-A8FD-4EA07858ACB6}|Controlelistatarefas\\Controlelistatarefas.csproj|solutionrelative:controlelistatarefas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Form1.cs",
+              "RelativeDocumentMoniker": "Controlelistatarefas\\Form1.cs",
+              "ToolTip": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Controlelistatarefas\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T00:21:13.983Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Program.cs",
+              "RelativeDocumentMoniker": "Controlelistatarefas\\Program.cs",
+              "ToolTip": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Program.cs",
+              "RelativeToolTip": "Controlelistatarefas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:43:32.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Form1.cs",
+              "RelativeDocumentMoniker": "Controlelistatarefas\\Form1.cs",
+              "ToolTip": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Form1.cs",
+              "RelativeToolTip": "Controlelistatarefas\\Form1.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwGcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:32:32.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Controlelistatarefas\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Form1.Designer.cs",
+              "RelativeToolTip": "Controlelistatarefas\\Form1.Designer.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwEAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:28:21.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Controlelistatarefas\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Controlelistatarefas\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:18:25.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Models\\Tarefa.cs",
+              "RelativeDocumentMoniker": "Controlelistatarefas\\Models\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\eduardo sebben\\Desktop\\Projeto MagnaData\\Controlelistatarefas\\Controlelistatarefas\\Models\\Tarefa.cs",
+              "RelativeToolTip": "Controlelistatarefas\\Models\\Tarefa.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:14:14.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
