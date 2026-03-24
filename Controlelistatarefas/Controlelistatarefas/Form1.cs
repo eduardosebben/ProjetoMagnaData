@@ -71,6 +71,15 @@ namespace Controlelistatarefas
                 Width = 180,
                 DefaultCellStyle = new DataGridViewCellStyle { Format = "dd/MM/yyyy HH:mm" }
             });
+
+            dgvTarefas.Columns.Add(new DataGridViewButtonColumn
+            {
+                Name = "Excluir",
+                HeaderText = "Ação",
+                Text = "Excluir",
+                UseColumnTextForButtonValue = true,
+                Width = 90
+            });
         }
 
         private void CarregarTarefas()
@@ -135,11 +144,13 @@ namespace Controlelistatarefas
                 MessageBox.Show("Informe a descrição da tarefa.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
             if (dtpDataCriacao.Value == DateTime.MinValue)
             {
                 MessageBox.Show("Informe a data de criação da tarefa.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
             if (dtpDataConclusao.Checked && dtpDataConclusao.Value < dtpDataCriacao.Value)
             {
                 MessageBox.Show("A data de conclusão não pode ser menor que a data de criação.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -161,6 +172,7 @@ namespace Controlelistatarefas
                     }
 
                     tarefa.Descricao = txtDescricao.Text.Trim();
+
                     if (!tarefa.DataConclusao.HasValue && dtpDataConclusao.Checked)
                     {
                         tarefa.DataConclusao = dtpDataConclusao.Value;
@@ -198,22 +210,79 @@ namespace Controlelistatarefas
 
         private void dgvTarefas_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex < 0) return;
+            if (e.RowIndex < 0 || e.ColumnIndex < 0) return;
+            if (e.ColumnIndex >= dgvTarefas.Columns.Count) return;
 
             var tarefa = dgvTarefas.Rows[e.RowIndex].DataBoundItem as Tarefa;
             if (tarefa == null) return;
+
+            string nomeColuna = dgvTarefas.Columns[e.ColumnIndex].Name;
+
+            if (nomeColuna == "Excluir")
+            {
+                var resultado = MessageBox.Show(
+                    "Deseja realmente excluir?",
+                    "Confirmação",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+
+                if (resultado == DialogResult.Yes)
+                {
+                    try
+                    {
+                        using var db = new AppDbContext();
+
+                        var tarefaExcluir = db.Tarefas.FirstOrDefault(t => t.Id == tarefa.Id);
+                        if (tarefaExcluir == null)
+                        {
+                            MessageBox.Show("Tarefa não encontrada.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+
+                        db.Tarefas.Remove(tarefaExcluir);
+                        db.SaveChanges();
+
+                        if (_idTarefaSelecionada == tarefa.Id)
+                            LimparCampos();
+
+                        CarregarTarefas();
+                        dgvTarefas.ClearSelection();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Erro ao excluir tarefa: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+                return;
+            }
 
             PreencherCampos(tarefa.Id, tarefa.Descricao, tarefa.DataCriacao, tarefa.DataConclusao);
         }
 
         private void dgvTarefas_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
         {
-            var tarefa = dgvTarefas.Rows[e.RowIndex].DataBoundItem as Tarefa;
+            var row = dgvTarefas.Rows[e.RowIndex];
+            var tarefa = row.DataBoundItem as Tarefa;
 
-            if (tarefa != null && tarefa.DataConclusao.HasValue)
+            if (tarefa == null) return;
+
+            if (tarefa.DataConclusao.HasValue)
             {
-                dgvTarefas.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.FromArgb(235, 235, 235);
-                dgvTarefas.Rows[e.RowIndex].DefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Strikeout);
+                row.DefaultCellStyle.BackColor = Color.FromArgb(235, 235, 235);
+
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    if (dgvTarefas.Columns[cell.ColumnIndex].Name != "Excluir")
+                    {
+                        cell.Style.Font = new Font("Segoe UI", 10, FontStyle.Strikeout);
+                    }
+                    else
+                    {
+                        // garante que o botão NÃO tenha traço
+                        cell.Style.Font = new Font("Segoe UI", 10, FontStyle.Regular);
+                    }
+                }
             }
         }
 
