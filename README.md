@@ -11,6 +11,7 @@ O sistema permite criar, editar e concluir tarefas, armazenando os dados em um b
 
 - ✔ Cadastro de tarefas
 - ✏️ Edição de tarefas
+-  X Excluir tarefas
 - ✅ Conclusão de tarefas via data de conclusão
 - 📋 Listagem de tarefas em grid
 - 🔒 Bloqueio de edição para tarefas concluídas
